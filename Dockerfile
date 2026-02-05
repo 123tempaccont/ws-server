@@ -5,7 +5,7 @@ FROM node:20-alpine
 WORKDIR /app
 
 # Copy your server file
-COPY server.js .
+COPY realtime.js .
 
 # Railway provides PORT as an env variable
 ENV PORT=8080
